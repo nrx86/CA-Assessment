@@ -1,7 +1,15 @@
+// let runs = 75;
+// const player = "Nikhil";
+
+// runs = 90;
+
+// console.log(runs);
+// console.log(player);
+
 let runs = 75;
-const player = "Nikhil";
+let player = "Nikhil";
+let isPlaying = true;
 
-runs = 90;
-
-console.log(runs);
-console.log(player);
+console.log(typeof runs);
+console.log(typeof player);
+console.log(typeof isPlaying);
