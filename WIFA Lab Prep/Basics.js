@@ -108,7 +108,18 @@
 //         n++;
 // }
 
-for (let i=1; i<=10; i++) {
-    if (i % 2 === 0) continue;
-    console.log(i)
+// for (let i=1; i<=10; i++) {
+//     if (i % 2 === 0) continue;
+//     console.log(i)
+// }
+
+for (let i = 1; i<=20; i++) {
+    if (i === 15) break;
+    else if (i % 3 === 0) {
+        console.log("Fizz")
+    } else if (i % 5 === 0) {
+        console.log("Buzz")
+    } else {
+        console.log(i)
+    }
 }
