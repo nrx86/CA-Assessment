@@ -6,10 +6,18 @@
 // console.log(runs);
 // console.log(player);
 
-let runs = 75;
-let player = "Nikhil";
-let isPlaying = true;
+// let runs = 75;
+// let player = "Nikhil";
+// let isPlaying = true;
 
-console.log(typeof runs);
-console.log(typeof player);
-console.log(typeof isPlaying);
+// console.log(typeof runs);
+// console.log(typeof player);
+// console.log(typeof isPlaying);
+
+let player = "Nikhil";
+let runs = 75;
+
+console.log(player + runs);
+console.log(`${player} scored ${runs} runs`);
+console.log("2" + 3);
+console.log(2 + 3);
