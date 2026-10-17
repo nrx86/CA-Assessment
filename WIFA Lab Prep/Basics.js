@@ -70,10 +70,22 @@
 //     console.log(i);
 // }
 
-let lives = 3;
+// let lives = 3;
 
-while(lives>0) {
-    console.log("Playing..." + lives);
-    lives = lives - 1;
+// while(lives>0) {
+//     console.log("Playing..." + lives);
+//     lives = lives - 1;
+// }
+
+
+for (let i = 1; i<=15; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz")
+    } else if (i % 3 === 0) {
+        console.log("Fizz")
+    } else if (i % 5 === 0) {
+        console.log("Buzz")
+    } else{
+        console.log(i)
+    }
 }
-
