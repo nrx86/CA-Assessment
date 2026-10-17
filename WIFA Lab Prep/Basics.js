@@ -90,13 +90,20 @@
 //     }
 // }
 
-let runs = 1;
-for (let i = 1; i<=10; i++) {
-    if (i % 3 === 0) {
-        console.log("Three")
-    } else if ( i % 2 === 0) {
-        console.log("Even")
-    } else {
-        console.log (i)
-    }
+// let runs = 1;
+// for (let i = 1; i<=10; i++) {
+//     if (i % 3 === 0) {
+//         console.log("Three")
+//     } else if ( i % 2 === 0) {
+//         console.log("Even")
+//     } else {
+//         console.log (i)
+//     }
+// }
+
+let n = 1;
+while (n<=10) {
+    if (n===6) break; 
+        console.log(n);
+        n++;
 }
