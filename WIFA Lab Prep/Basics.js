@@ -22,8 +22,11 @@
 // console.log("2" + 3);
 // console.log(2 + 3);
 
-let runs = 75;
 
-let result = runs >= 50 ? "Half-century" : "Less than 50";
+const player = "Nikhil";
+let runs = 45;
+runs+=7;
+console.log(typeof runs);
 
+let result = runs >= 50 ? "Half-century" : "Keep playing"
 console.log(result);
