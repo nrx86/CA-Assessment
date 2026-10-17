@@ -45,4 +45,4 @@ console.log(result);
 
 console.log(runs === 50);
 
-console.log(runs >= 50 && isOut);
+console.log(runs >= 50 && !isOut);
