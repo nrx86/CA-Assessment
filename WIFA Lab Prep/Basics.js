@@ -47,11 +47,15 @@
 
 // console.log(runs >= 50 && !isOut);
 
-let runs = 67;
-if (runs >=100) {
-    console.log("Century")
-} else if (runs >=50) {
-    console.log("Half-century")
-} else{
-    console.log("Keep practicing")
+// let runs = 67;
+// if (runs >=100) {
+//     console.log("Century")
+// } else if (runs >=50) {
+//     console.log("Half-century")
+// } else{
+//     console.log("Keep practicing")
+// }
+
+for(let i = 1; i<=6; i++) {
+    console.log(i)
 }
