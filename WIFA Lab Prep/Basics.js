@@ -31,18 +31,27 @@
 // let result = runs >= 50 ? "Half-century" : "Keep playing"
 // console.log(result);
 
-const player = "Nikhil";
-let runs = 42;
-let isOut = false;
+// const player = "Nikhil";
+// let runs = 42;
+// let isOut = false;
 
-runs+=8;
+// runs+=8;
 
-console.log(runs);
-console.log(typeof runs);
+// console.log(runs);
+// console.log(typeof runs);
 
-let result = runs >=50 ? "Half-century" : "Keep playing";
-console.log(result);
+// let result = runs >=50 ? "Half-century" : "Keep playing";
+// console.log(result);
 
-console.log(runs === 50);
+// console.log(runs === 50);
 
-console.log(runs >= 50 && !isOut);
+// console.log(runs >= 50 && !isOut);
+
+let runs = 67;
+if (runs >=100) {
+    console.log("Century")
+} else if (runs >=50) {
+    console.log("Half-century")
+} else{
+    console.log("Keep practicing")
+}
