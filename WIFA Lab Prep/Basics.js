@@ -151,7 +151,14 @@
 // }
 // console.log(isEven(8));
 
-const square = function (n) {
-    return n**2;
-}
-console.log(square(4));
+// const square = function (n) {
+//     return n**2;
+// }
+// console.log(square(4));
+
+const scores = [30,60,80,100,45]
+const result = scores
+.filter(n => n>50)
+.map(n => n * 2)
+
+console.log(result)
