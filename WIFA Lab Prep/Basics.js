@@ -135,7 +135,13 @@
 //     }
 // }
 
-function double(n) {
-    return n * 2;
+// function double(n) {
+//     return n * 2;
+// }
+// console.log(double(5));
+
+
+function add(a,b) {
+    return a+b;
 }
-console.log(double(5));
+console.log(add(7,8));
