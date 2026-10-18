@@ -176,9 +176,16 @@
 // console.log(result)
 // console.log(scores)
 
-const runs = [10, 25, 40, 55, 70];
-const result = runs
-.filter (n => n>30)
+// const runs = [10, 25, 40, 55, 70];
+// const result = runs
+// .filter (n => n>30)
+// .map (n=> n*3)
+// console.log(result)
+// console.log(runs)
+
+const nums = [4,10,7,12,9]
+const result = nums
+.filter (n=> n<10)
 .map (n=> n*3)
-console.log(result)
-console.log(runs)
+console.log(result);
+console.log(nums);
