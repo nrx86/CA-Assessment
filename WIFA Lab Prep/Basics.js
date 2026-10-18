@@ -141,7 +141,12 @@
 // console.log(double(5));
 
 
-function add(a,b) {
-    return a+b;
+// function add(a,b) {
+//     return a+b;
+// }
+// console.log(add(7,8));
+
+function isEven(n) {
+    return (n % 2 === 0);
 }
-console.log(add(7,8));
+console.log(isEven(8));
