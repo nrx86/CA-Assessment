@@ -162,17 +162,23 @@
 // .map(n => n * 2)
 
 // console.log(result)
-
 //const prices = [100, 250, 80, 400, 150];
 //const result = prices
 //.filter (n => n>150)
 //.map (n => n/2)
 //console.log(result)
 
-const scores = [45, 70, 85, 30, 90, 60];
-const result = scores
-.filter (n => n>=60)
-.map (n => n + 5);
+// const scores = [45, 70, 85, 30, 90, 60];
+// const result = scores
+// .filter (n => n>=60)
+// .map (n => n + 5);
 
+// console.log(result)
+// console.log(scores)
+
+const runs = [10, 25, 40, 55, 70];
+const result = runs
+.filter (n => n>30)
+.map (n=> n*3)
 console.log(result)
-console.log(scores)
+console.log(runs)
