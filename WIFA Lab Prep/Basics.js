@@ -124,13 +124,18 @@
 //     }
 // }
 
-for (let i = 10; i <= 20; i++) {
-    if (i === 13) continue;
-    else if (i % 2 === 0) {
-        console.log("Even")
-    } else if ( i % 3 === 0) {
-        console.log("Three")
-    } else{
-        console.log(i)
-    }
+// for (let i = 10; i <= 20; i++) {
+//     if (i === 13) continue;
+//     else if (i % 2 === 0) {
+//         console.log("Even")
+//     } else if ( i % 3 === 0) {
+//         console.log("Three")
+//     } else{
+//         console.log(i)
+//     }
+// }
+
+function double(n) {
+    return n * 2;
 }
+console.log(double(5));
