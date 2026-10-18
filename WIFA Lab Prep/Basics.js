@@ -183,9 +183,22 @@
 // console.log(result)
 // console.log(runs)
 
-const nums = [4,10,7,12,9]
-const result = nums
-.filter (n=> n<10)
-.map (n=> n*3)
-console.log(result);
-console.log(nums);
+// const nums = [4,10,7,12,9]
+// const result = nums
+// .filter (n=> n<10)
+// .map (n=> n*3)
+// console.log(result);
+// console.log(nums);
+
+const book = {
+    title: "Dune",
+    pages: 412,
+    author: "Frank Herbert",
+
+summary() {
+    return this.title + " has " + this.pages + " pages";
+    }
+};
+
+book.pages = 500;
+console.log(book.summary());
