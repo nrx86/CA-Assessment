@@ -190,15 +190,58 @@
 // console.log(result);
 // console.log(nums);
 
-const book = {
-    title: "Dune",
-    pages: 412,
-    author: "Frank Herbert",
+// const book = {
+//     title: "Dune",
+//     pages: 412,
+//     author: "Frank Herbert",
 
-summary() {
-    return this.title + " has " + this.pages + " pages";
+// summary() {
+//     return this.title + " has " + this.pages + " pages";
+//     }
+// };
+
+// book.pages = 500;
+// console.log(book.summary());
+
+const players =[
+    {
+        name: "Virat",
+        runs: 85,
+
+        getInfo() {
+            return this.name + " scored " + this.runs;
+        }
+    },
+
+    {
+        name: "Rohit",
+        runs: 42,
+
+        getInfo() {
+            return this.name + " scored " + this.runs;
+        }
+    },
+
+    {
+        name: "Gill",
+        runs: 76,
+
+        getInfo() {
+            return this.name + " scored " + this.runs;
+        }
     }
-};
+];
 
-book.pages = 500;
-console.log(book.summary());
+players[0].team = "India";
+players[1].runs = 50;
+
+console.log(players[0].getInfo());
+console.log(players[1].getInfo());
+console.log(players[2].getInfo());
+
+const result = players
+.filter(n=> n.runs>60)
+.map(n=> n.name);
+
+console.log(result);
+
