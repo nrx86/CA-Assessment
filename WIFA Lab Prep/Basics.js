@@ -146,7 +146,12 @@
 // }
 // console.log(add(7,8));
 
-function isEven(n) {
-    return (n % 2 === 0);
+// function isEven(n) {
+//     return (n % 2 === 0);
+// }
+// console.log(isEven(8));
+
+const square = function (n) {
+    return n**2;
 }
-console.log(isEven(8));
+console.log(square(4));
