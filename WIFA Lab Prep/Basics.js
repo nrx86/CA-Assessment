@@ -203,45 +203,55 @@
 // book.pages = 500;
 // console.log(book.summary());
 
-const players =[
-    {
-        name: "Virat",
-        runs: 85,
+// const players =[
+//     {
+//         name: "Virat",
+//         runs: 85,
 
-        getInfo() {
-            return this.name + " scored " + this.runs;
-        }
-    },
+//         getInfo() {
+//             return this.name + " scored " + this.runs;
+//         }
+//     },
 
-    {
-        name: "Rohit",
-        runs: 42,
+//     {
+//         name: "Shikhar",
+//         runs: 76,
 
-        getInfo() {
-            return this.name + " scored " + this.runs;
-        }
-    },
+//         getInfo() {
+//             return this.name + " scored " + this.runs;
+//         }
+//     },
 
-    {
-        name: "Gill",
-        runs: 76,
+//     {
+//         name: "Rohit",
+//         runs: 42,
 
-        getInfo() {
-            return this.name + " scored " + this.runs;
-        }
-    }
-];
+//         getInfo() {
+//             return this.name + " scored " + this.runs;
+//         }
+//     },
 
-players[0].team = "India";
-players[1].runs = 50;
+//     {
+//         name: "Gill",
+//         runs: 76,
 
-console.log(players[0].getInfo());
-console.log(players[1].getInfo());
-console.log(players[2].getInfo());
+//         getInfo() {
+//             return this.name + " scored " + this.runs;
+//         }
+//     }
+// ];
 
-const result = players
-.filter(n=> n.runs>60)
-.map(n=> n.name);
+// players[0].team = "India";
+// players[2].runs = 50;
 
-console.log(result);
+// console.log(players[0].getInfo());
+// console.log(players[1].getInfo());
+// console.log(players[2].getInfo());
 
+// const result = players
+// .filter(n=> n.runs>40)
+// .map(n=> n.name);
+
+// console.log(result);
+
+document.getElementById("")
