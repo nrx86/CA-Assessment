@@ -39,10 +39,20 @@
 # print(first)
 # print(second)
 
-prices = {"apple":40, "banana":20, "mango":60}
-print("Banana price:", (prices["banana"]))
-prices["apple"] = 45
-prices["orange"] = 30
-removed_price = prices.pop("mango")
-print("Removed mango price:", removed_price)
-print("Updated Prices:", prices)
+# prices = {"apple":40, "banana":20, "mango":60}
+# print("Banana price:", (prices["banana"]))
+# prices["apple"] = 45
+# prices["orange"] = 30
+# removed_price = prices.pop("mango")
+# print("Removed mango price:", removed_price)
+# print("Updated Prices:", prices)
+
+from re import U
+
+
+numbers=[2,4,2,6,4,8]
+unique_numbers=set(numbers)
+print(len(unique_numbers))
+unique_numbers.add(10)
+unique_numbers.discard(6)
+print(unique_numbers)
