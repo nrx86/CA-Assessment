@@ -31,10 +31,18 @@
 # print("Removed element:", removed)
 # print("Final list:", numbers)
 
-scores=(75,90,65,90,80)
-print(len(scores))
-print(scores.count(90))
-print(scores.index(90))
-first, second=scores[:2]
-print(first)
-print(second)
+# scores=(75,90,65,90,80)
+# print(len(scores))
+# print(scores.count(90))
+# print(scores.index(90))
+# first, second=scores[:2]
+# print(first)
+# print(second)
+
+prices = {"apple":40, "banana":20, "mango":60}
+print("Banana price:", (prices["banana"]))
+prices["apple"] = 45
+prices["orange"] = 30
+removed_price = prices.pop("mango")
+print("Removed mango price:", removed_price)
+print("Updated Prices:", prices)
