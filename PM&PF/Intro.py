@@ -21,12 +21,20 @@
 # print("Total: ", sum(times))
 # print("Average: ", sum(times)/len(times))
 
-numbers=[12,5,8,3]
-numbers.append(10)
-numbers.insert(1,7)
+# numbers=[12,5,8,3]
+# numbers.append(10)
+# numbers.insert(1,7)
 
-removed=numbers.pop(2)
-numbers.sort()
+# removed=numbers.pop(2)
+# numbers.sort()
 
-print("Removed element:", removed)
-print("Final list:", numbers)
+# print("Removed element:", removed)
+# print("Final list:", numbers)
+
+scores=(75,90,65,90,80)
+print(len(scores))
+print(scores.count(90))
+print(scores.index(90))
+first, second=scores[:2]
+print(first)
+print(second)
