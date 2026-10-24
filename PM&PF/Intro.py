@@ -7,16 +7,26 @@
 # integers.sort()
 # print(integers)
 
-times=[45, 32, 50, 28, 40]
-times.append(35)
-times.extend([25, 60])
-times.insert(2, 30)
-times.remove(50)
-times.sort()
+# times=[45, 32, 50, 28, 40]
+# times.append(35)
+# times.extend([25, 60])
+# times.insert(2, 30)
+# times.remove(50)
+# times.sort()
 
-print(times)
-print("Length: ", len(times))
-print("Minimum: ", min(times))
-print("Maximum: ", max(times))
-print("Total: ", sum(times))
-print("Average: ", sum(times)/len(times))
+# print(times)
+# print("Length: ", len(times))
+# print("Minimum: ", min(times))
+# print("Maximum: ", max(times))
+# print("Total: ", sum(times))
+# print("Average: ", sum(times)/len(times))
+
+numbers=[12,5,8,3]
+numbers.append(10)
+numbers.insert(1,7)
+
+removed=numbers.pop(2)
+numbers.sort()
+
+print("Removed element:", removed)
+print("Final list:", numbers)
