@@ -182,68 +182,68 @@ from re import U
 
 
 
-# 1. Creating tuples
-point = (3, 5)
-person = ("Priya", 20, "A")
-empty = ()
-solo = (5,)
+# # 1. Creating tuples
+# point = (3, 5)
+# person = ("Priya", 20, "A")
+# empty = ()
+# solo = (5,)
 
-print("Point:", point)
-print("Person:", person)
-print("Empty tuple:", empty)
-print("Single-item tuple:", solo)
-print("Type of solo:", type(solo))
+# print("Point:", point)
+# print("Person:", person)
+# print("Empty tuple:", empty)
+# print("Single-item tuple:", solo)
+# print("Type of solo:", type(solo))
 
-# 2. Accessing items and slicing
-print("First item:", person[0])
-print("Last item:", person[-1])
-print("Slice:", person[0:2])
+# # 2. Accessing items and slicing
+# print("First item:", person[0])
+# print("Last item:", person[-1])
+# print("Slice:", person[0:2])
 
-# 3. Length and membership
-print("Length:", len(person))
-print("Is 20 present?", 20 in person)
+# # 3. Length and membership
+# print("Length:", len(person))
+# print("Is 20 present?", 20 in person)
 
-# 4. Tuples are immutable
-# point[0] = 99  # TypeError: tuple cannot be changed
+# # 4. Tuples are immutable
+# # point[0] = 99  # TypeError: tuple cannot be changed
 
-# 5. Packing and unpacking
-x, y = point
-print("x:", x)
-print("y:", y)
+# # 5. Packing and unpacking
+# x, y = point
+# print("x:", x)
+# print("y:", y)
 
-name, age, grade = "Priya", 20, "A"
-print("Name:", name)
-print("Age:", age)
-print("Grade:", grade)
+# name, age, grade = "Priya", 20, "A"
+# print("Name:", name)
+# print("Age:", age)
+# print("Grade:", grade)
 
-# 6. One-line swap
-a, b = 10, 20
-a, b = b, a
-print("After swap:", a, b)
+# # 6. One-line swap
+# a, b = 10, 20
+# a, b = b, a
+# print("After swap:", a, b)
 
-# 7. Tuple methods
-nums = (4, 1, 4, 2, 4)
-print("Count of 4:", nums.count(4))
-print("Index of 2:", nums.index(2))
+# # 7. Tuple methods
+# nums = (4, 1, 4, 2, 4)
+# print("Count of 4:", nums.count(4))
+# print("Index of 2:", nums.index(2))
 
-# 8. Built-in functions
-print("Length:", len(nums))
-print("Maximum:", max(nums))
-print("Minimum:", min(nums))
-print("Sum:", sum(nums))
+# # 8. Built-in functions
+# print("Length:", len(nums))
+# print("Maximum:", max(nums))
+# print("Minimum:", min(nums))
+# print("Sum:", sum(nums))
 
-# 9. Convert tuple to list to modify it
-temp = list(point)
-temp[0] = 99
-point = tuple(temp)
-print("Modified point:", point)
+# # 9. Convert tuple to list to modify it
+# temp = list(point)
+# temp[0] = 99
+# point = tuple(temp)
+# print("Modified point:", point)
 
-# 10. Returning multiple values as a tuple
-def divide(a, b):
-    return a // b, a % b
+# # 10. Returning multiple values as a tuple
+# def divide(a, b):
+#     return a // b, a % b
 
-q, r = divide(17, 5)
-print("Quotient:", q)
-print("Remainder:", r)
+# q, r = divide(17, 5)
+# print("Quotient:", q)
+# print("Remainder:", r)
 
 
