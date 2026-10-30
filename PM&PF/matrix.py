@@ -75,12 +75,12 @@
 # for i in range(n):
 #     print(row_totals[i] - col_totals[i])
 
-nums=[23,45,65,70,89]
-target=65
-for i in range(len(nums)):
-    if nums[i]==target:
-        print(i)
-        break
+# nums=[23,45,65,70,89]
+# target=65
+# for i in range(len(nums)):
+#     if nums[i]==target:
+#         print(i)
+#         break
 
 
     
