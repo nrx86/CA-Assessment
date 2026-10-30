@@ -76,18 +76,12 @@
 
 # print("Number of fruits:", count)
 
-sales = {
-    "Aman": 1200,
-    "Riya": 2500,
-    "Karan": 1800,
-    "Simran": 3000,
-    "Rahul": 900
-}
-total =0
-coount=0
-
-for employees, sale in sales.items():
-    if 
-    total+=sale
-
+prices={}
+prices["Laptop"]=55000
+prices["Mouse"]=800
+prices["Keyboard"]=1500
+prices["Monitor"]=12000
+for product in prices:
+    if prices[product]>2000:
+        print(product)
     
