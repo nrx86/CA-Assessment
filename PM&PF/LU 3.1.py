@@ -135,8 +135,19 @@ from os import name
 # print("Topper:", topper)
 # print("Highest marks:", highest)
 
-fruits = ["apple", "banana", "apple", "orange", "banana", "apple", "mango", "orange"]
-frequency={}
-for fruit in fruits:
-    frequency[fruit] = frequency.get(fruit,0)+1
-print(frequency)
+# fruits = ["apple", "banana", "apple", "orange", "banana", "apple", "mango", "orange"]
+# frequency={}
+# for fruit in fruits:
+#     frequency[fruit] = frequency.get(fruit,0)+1
+# print(frequency)
+
+marks={}
+n=int(input("How many students? "))
+for i in range(n):
+    student_name=input("Enter student name: ")
+    student_marks=int(input("Enter marks: "))
+    marks[student_name]= student_marks
+
+print("Student marks:", marks)
+
+
