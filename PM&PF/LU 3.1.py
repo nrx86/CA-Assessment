@@ -141,13 +141,29 @@ from os import name
 #     frequency[fruit] = frequency.get(fruit,0)+1
 # print(frequency)
 
+# marks={}
+# n=int(input("How many students? "))
+# for i in range(n):
+#     student_name=input("Enter student name: ")
+#     student_marks=int(input("Enter marks: "))
+#     marks[student_name]= student_marks
+
+# print("Student marks:", marks)
+
 marks={}
-n=int(input("How many students? "))
+n=int(input("How many students?"))
+count=0
 for i in range(n):
     student_name=input("Enter student name: ")
     student_marks=int(input("Enter marks: "))
-    marks[student_name]= student_marks
+    marks[student_name]=student_marks
 
-print("Student marks:", marks)
+print("Students scoring 80 or more:")
+for student in marks:
+    if marks[student]>=80:
+        print(student)
+        count+=1
+print("Total students:", count)
+
 
 
