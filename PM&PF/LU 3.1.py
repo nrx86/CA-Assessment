@@ -76,12 +76,26 @@
 
 # print("Number of fruits:", count)
 
-prices={}
-prices["Laptop"]=55000
-prices["Mouse"]=800
-prices["Keyboard"]=1500
-prices["Monitor"]=12000
-for product in prices:
-    if prices[product]>2000:
-        print(product)
+# prices={}
+# prices["Laptop"]=55000
+# prices["Mouse"]=800
+# prices["Keyboard"]=1500
+# prices["Monitor"]=12000
+# for product in prices:
+#     if prices[product]>2000:
+#         print(product)
     
+marks={}
+marks["Rahul"]=85
+marks["Aman"]=67
+marks["Priya"]=92
+marks["Rohan"]=74
+marks["Sneha"]=38
+count=0
+for student in marks:
+    if marks[student]>=60:
+        count+=1
+        print(student)
+        
+
+print("Total students passed:", count)
