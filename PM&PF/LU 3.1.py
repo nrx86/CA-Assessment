@@ -46,18 +46,33 @@
 # average=total/len(marks)
 # print("Average marks:", average)
 
-scores = {
-    "Aman": 85,
-    "Riya": 92,
-    "Karan": 76,
-    "Simran": 88,
-    "Rahul": 65
+# scores = {
+#     "Aman": 85,
+#     "Riya": 92,
+#     "Karan": 76,
+#     "Simran": 88,
+#     "Rahul": 65
+# }
+# highest=0
+# topper=""
+# for student in scores:
+#     if scores[student] > highest:
+#         highest = scores[student]
+#         topper=student
+# print("Highest marks:", highest)
+# print("Topper:", topper)
+
+inventory = {
+    "apple": 12,
+    "banana": 5,
+    "cherry": 20,
+    "mango": 8,
+    "orange": 3
 }
-highest=0
-topper=""
-for student in scores:
-    if scores[student] > highest:
-        highest = scores[student]
-        topper=student
-print("Highest marks:", highest)
-print("Topper:", topper)
+count=0
+for fruits in inventory:
+    if inventory[fruits]>7:
+        count+=1
+
+print("Number of fruits:", count)
+
