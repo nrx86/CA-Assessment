@@ -62,17 +62,32 @@
 # print("Highest marks:", highest)
 # print("Topper:", topper)
 
-inventory = {
-    "apple": 12,
-    "banana": 5,
-    "cherry": 20,
-    "mango": 8,
-    "orange": 3
+# inventory = {
+#     "apple": 12,
+#     "banana": 5,
+#     "cherry": 20,
+#     "mango": 8,
+#     "orange": 3
+# }
+# count=0
+# for fruits in inventory:
+#     if inventory[fruits]>7:
+#         count+=1
+
+# print("Number of fruits:", count)
+
+sales = {
+    "Aman": 1200,
+    "Riya": 2500,
+    "Karan": 1800,
+    "Simran": 3000,
+    "Rahul": 900
 }
-count=0
-for fruits in inventory:
-    if inventory[fruits]>7:
-        count+=1
+total =0
+coount=0
 
-print("Number of fruits:", count)
+for employees, sale in sales.items():
+    if 
+    total+=sale
 
+    
