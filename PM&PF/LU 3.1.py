@@ -85,17 +85,34 @@
 #     if prices[product]>2000:
 #         print(product)
     
-marks={}
-marks["Rahul"]=85
-marks["Aman"]=67
-marks["Priya"]=92
-marks["Rohan"]=74
-marks["Sneha"]=38
-count=0
-for student in marks:
-    if marks[student]>=60:
-        count+=1
-        print(student)
+# marks={}
+# marks["Rahul"]=85
+# marks["Aman"]=67
+# marks["Priya"]=92
+# marks["Rohan"]=74
+# marks["Sneha"]=38
+# count=0
+# for student in marks:
+#     if marks[student]>=60:
+#         count+=1
+#         print(student)
         
 
-print("Total students passed:", count)
+# print("Total students passed:", count)
+
+sales={}
+sales["Shoes"]=2500
+sales["T-shirt"]=800
+sales["Jeans"]=1800
+sales["Jacket"]=3500
+sales["Cap"]=400
+total=0
+count=0
+for products in sales:
+    total+=sales[products]
+    if sales[products]>1000:
+        count+=1
+
+print("Total sales:", total)
+print("Items with sales greater than 1000:", count)
+    
