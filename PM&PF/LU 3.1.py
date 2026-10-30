@@ -119,18 +119,24 @@
 from os import name
 
 
-scores={}
-scores["Rahul"]=78
-scores["Aman"]=91
-scores["Priya"]=85
-scores["Rohan"]=96
-scores["Sneha"]=88
+# scores={}
+# scores["Rahul"]=78
+# scores["Aman"]=91
+# scores["Priya"]=85
+# scores["Rohan"]=96
+# scores["Sneha"]=88
 
-highest=0
-topper=""
-for students in scores:
-    if scores[students] > highest:
-        highest=scores[students]
-        topper=students
-print("Topper:", topper)
-print("Highest marks:", highest)
+# highest=0
+# topper=""
+# for students in scores:
+#     if scores[students] > highest:
+#         highest=scores[students]
+#         topper=students
+# print("Topper:", topper)
+# print("Highest marks:", highest)
+
+fruits = ["apple", "banana", "apple", "orange", "banana", "apple", "mango", "orange"]
+frequency={}
+for fruit in fruits:
+    frequency[fruit] = frequency.get(fruit,0)+1
+print(frequency)
