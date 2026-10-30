@@ -32,18 +32,32 @@
 #     total = total + prices
 # print(total)
 
-marks = {
+# marks = {
+#     "Aman": 85,
+#     "Riya": 92,
+#     "Karan": 76,
+#     "Simran": 88,
+#     "Rahul": 65
+# }
+# total=0
+# for student,mark  in marks.items():
+#     total+=mark
+
+# average=total/len(marks)
+# print("Average marks:", average)
+
+scores = {
     "Aman": 85,
     "Riya": 92,
     "Karan": 76,
     "Simran": 88,
     "Rahul": 65
 }
-total=0
-for student,mark  in marks.items():
-    total+=mark
-
-average=total/len(marks)
-print("Average marks:", average)
-
-
+highest=0
+topper=""
+for student in scores:
+    if scores[student] > highest:
+        highest = scores[student]
+        topper=student
+print("Highest marks:", highest)
+print("Topper:", topper)
