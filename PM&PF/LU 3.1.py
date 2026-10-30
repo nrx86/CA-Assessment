@@ -100,19 +100,37 @@
 
 # print("Total students passed:", count)
 
-sales={}
-sales["Shoes"]=2500
-sales["T-shirt"]=800
-sales["Jeans"]=1800
-sales["Jacket"]=3500
-sales["Cap"]=400
-total=0
-count=0
-for products in sales:
-    total+=sales[products]
-    if sales[products]>1000:
-        count+=1
+# sales={}
+# sales["Shoes"]=2500
+# sales["T-shirt"]=800
+# sales["Jeans"]=1800
+# sales["Jacket"]=3500
+# sales["Cap"]=400
+# total=0
+# count=0
+# for products in sales:
+#     total+=sales[products]
+#     if sales[products]>1000:
+#         count+=1
 
-print("Total sales:", total)
-print("Items with sales greater than 1000:", count)
+# print("Total sales:", total)
+# print("Items with sales greater than 1000:", count)
     
+from os import name
+
+
+scores={}
+scores["Rahul"]=78
+scores["Aman"]=91
+scores["Priya"]=85
+scores["Rohan"]=96
+scores["Sneha"]=88
+
+highest=0
+topper=""
+for students in scores:
+    if scores[students] > highest:
+        highest=scores[students]
+        topper=students
+print("Topper:", topper)
+print("Highest marks:", highest)
