@@ -49,7 +49,19 @@
 #     print("Account locked.")
 
 #Write a Python program that repeatedly asks the user to enter their age until they enter a valid age between 18 and 60 (inclusive).    
-while True:
+# while True:
+#     age=input("Enter your age:")
+#     if age.isdigit():
+#         age=int(age)
+#         if 18 <= age <= 60:
+#             print("Registration successful.")
+#             break
+#         else:
+#             print("Age must be between 18 and 60.")
+#     else:
+#         print("Enter numbers only.")
+
+for attempts in range(3):
     age=input("Enter your age:")
     if age.isdigit():
         age=int(age)
@@ -57,6 +69,8 @@ while True:
             print("Registration successful.")
             break
         else:
-            print("Age must be between 18 and 60.")
+            print("Invalid age.")
     else:
         print("Enter numbers only.")
+else:
+    print("Registration failed.")
