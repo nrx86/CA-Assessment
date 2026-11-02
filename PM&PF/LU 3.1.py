@@ -119,6 +119,7 @@
 from itertools import count
 from os import name
 from tokenize import Name
+from turtle import st
 
 
 # scores={}
@@ -301,7 +302,19 @@ from tokenize import Name
 # print("City with lowest temperature:", city)
 # print("Lowest temperature:", lowest)
 
-data={"seven": 7, "eight": 8, "nine": 9}
-for number in data:
-    print(number)
-print("Loop completed")
+# data={"seven": 7, "eight": 8, "nine": 9}
+# for number in data:
+#     print(number)
+# print("Loop completed")
+
+students={}
+students["Rahul"]=85
+students["Aman"]=72
+students["Priya"]=91
+students["Rohit"]=68
+
+for student in students:
+    print(student, students[student])
+
+students["Sneha"]=88
+print("Updated student marks:", students)
