@@ -307,14 +307,18 @@ from turtle import st
 #     print(number)
 # print("Loop completed")
 
-students={}
-students["Rahul"]=85
-students["Aman"]=72
-students["Priya"]=91
-students["Rohit"]=68
+# students={}
+# students["Rahul"]=85
+# students["Aman"]=72
+# students["Priya"]=91
+# students["Rohit"]=68
 
-for student in students:
-    print(student, students[student])
+# for student in students:
+#     print(student, students[student])
 
-students["Sneha"]=88
-print("Updated student marks:", students)
+# students["Sneha"]=88
+# print("Updated student marks:", students)
+
+marks = {"Maths": 85, "Physics": 78, "Chemistry": 92}
+print(marks.get("Physics", 0))
+print(marks.get("Biology", 0))
