@@ -199,11 +199,20 @@ from tokenize import Name
 # for student in scores.keys():
 #     print(student)
 
-inventory={}
-inventory["Pen"]=20
-inventory["Notebook"]=35
-inventory["Pencil"]=15
-inventory["Eraser"]=10
+# inventory={}
+# inventory["Pen"]=20
+# inventory["Notebook"]=35
+# inventory["Pencil"]=15
+# inventory["Eraser"]=10
 
-for item in inventory.values():
-    print(item)
+# for item in inventory.values():
+#     print(item)
+
+players={}
+players["Virat"]=85
+players["Rohit"]=62
+players["Dhoni"]=45
+players["SKY"]=70
+
+for player,score in players.items():
+    print(player, score)
