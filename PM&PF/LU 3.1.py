@@ -116,6 +116,7 @@
 # print("Total sales:", total)
 # print("Items with sales greater than 1000:", count)
     
+from functools import total_ordering
 from itertools import count
 from os import name
 from tokenize import Name
@@ -323,26 +324,49 @@ from turtle import st
 # print(marks.get("Physics", 0))
 # print(marks.get("Biology", 0))
 
-counts={}
-word="banana"
-for letter in word:
-    counts = {}
-word = "banana"
+# counts={}
+# word="banana"
+# for letter in word:
+#     counts = {}
+# word = "banana"
 
-for letter in word:
-    if letter in counts:
-        counts[letter] += 1
-    else:
-        counts[letter] = 1
+# for letter in word:
+#     if letter in counts:
+#         counts[letter] += 1
+#     else:
+#         counts[letter] = 1
 
-smallest = float('inf')
-smallest_letter = ""
+# smallest = float('inf')
+# smallest_letter = ""
 
-for letter in counts:
-    if counts[letter] < smallest:
-        smallest = counts[letter]
-        smallest_letter = letter
+# for letter in counts:
+#     if counts[letter] < smallest:
+#         smallest = counts[letter]
+#         smallest_letter = letter
 
-print("Frequency of letters:", counts)
-print("Letter with smallest frequency:", smallest_letter)
-print("Smallest frequency:", smallest)
+# print("Frequency of letters:", counts)
+# print("Letter with smallest frequency:", smallest_letter)
+# print("Smallest frequency:", smallest)
+
+
+products = {
+    "Laptop": 55000,
+    "Mouse": 800,
+    "Keyboard": 1500,
+    "Monitor": 12000
+}
+print("Products and their prices:")
+for item in products:
+    print(item, ":", products[item])
+total=0
+highest=0
+
+for item in products:
+    total+=products[item]
+    if products[item] > highest:
+        highest = products[item]
+        product=item
+
+print("Total value of products:", total)
+print("Highest product value:", highest)
+print("Product with highest value:", product)
