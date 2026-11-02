@@ -263,9 +263,23 @@ from tokenize import Name
 # print("Top player:", player)
 # print("Highest score:", highest)
 
-frequency={}
-numbers = [2, 3, 2, 5, 3, 2, 5, 1, 3, 2]
+# frequency={}
+# numbers = [2, 3, 2, 5, 3, 2, 5, 1, 3, 2]
 
-for number in numbers:
-    frequency[number] = frequency.get(number,0)+1
-print("Frequency of numbers:", frequency)
+# for digit in numbers:
+#     frequency[digit] = frequency.get(digit,0)+1
+# print("Frequency of numbers:", frequency)
+
+marks={}
+marks["Maths"]=85
+marks["Physics"]=72
+marks["Chemistry"]=91
+marks["English"]=78
+marks["Biology"]=64
+
+total=0
+
+for subject in marks:
+    total+=marks[subject]
+average=total/len(marks)
+print("Average marks:", average)
