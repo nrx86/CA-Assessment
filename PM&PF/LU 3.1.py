@@ -270,16 +270,33 @@ from tokenize import Name
 #     frequency[digit] = frequency.get(digit,0)+1
 # print("Frequency of numbers:", frequency)
 
-marks={}
-marks["Maths"]=85
-marks["Physics"]=72
-marks["Chemistry"]=91
-marks["English"]=78
-marks["Biology"]=64
+# marks={}
+# marks["Maths"]=85
+# marks["Physics"]=72
+# marks["Chemistry"]=91
+# marks["English"]=78
+# marks["Biology"]=64
 
-total=0
+# total=0
 
-for subject in marks:
-    total+=marks[subject]
-average=total/len(marks)
-print("Average marks:", average)
+# for subject in marks:
+#     total+=marks[subject]
+# average=total/len(marks)
+# print("Average marks:", average)
+
+temperatures={}
+temperatures["Delhi"]=32
+temperatures["Mumbai"]=29
+temperatures["Jaipur"]=35
+temperatures["Shimla"]=18
+temperatures["Chennai"]=31
+
+lowest = float('inf')
+city=""
+
+for cities in temperatures:
+    if temperatures[cities]<lowest:
+        lowest=temperatures[cities]
+        city=cities
+print("City with lowest temperature:", city)
+print("Lowest temperature:", lowest)
