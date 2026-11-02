@@ -61,16 +61,26 @@
 #     else:
 #         print("Enter numbers only.")
 
-for attempts in range(3):
-    age=input("Enter your age:")
-    if age.isdigit():
-        age=int(age)
-        if 18 <= age <= 60:
-            print("Registration successful.")
-            break
-        else:
-            print("Invalid age.")
+#Limited attempts+Validation
+# for attempts in range(3):
+#     age=input("Enter your age:")
+#     if age.isdigit():
+#         age=int(age)
+#         if 18 <= age <= 60:
+#             print("Registration successful.")
+#             break
+#         else:
+#             print("Invalid age.")
+#     else:
+#         print("Enter numbers only.")
+# else:
+#     print("Registration failed.")
+
+#Password Validation
+while True:
+    password=input("Enter the password:")
+    if len(password) >= 8:
+        print("Password accepted.")
+        break
     else:
-        print("Enter numbers only.")
-else:
-    print("Registration failed.")
+        print("Password must be at least 8 characters long.")
