@@ -20,10 +20,19 @@
 #         print("Age must be a number.")
 
 #Write a Python program that repeatedly asks the user: continue? (yes/no):
+# while True:
+#     response=input("Continue? (yes/no): ")
+#     if response.lower()=="yes" or response.lower()=="no":
+#         print("You chose:", response)
+#         break
+#     else:
+#         print("Please type yes or no.")
+
+#Write a Python program that repeatedly asks the user to enter their name.
 while True:
-    response=input("Continue? (yes/no): ")
-    if response.lower()=="yes" or response.lower()=="no":
-        print("You chose:", response)
+    name=input("Enter your name:")
+    if name.isalnum():
+        print("Hello", name)
         break
     else:
-        print("Please type yes or no.")
+        print("Name cannot be empty.")
