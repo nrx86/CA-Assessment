@@ -217,14 +217,29 @@ from tokenize import Name
 # for player,score in players.items():
 #     print(player, score)
 
-expenses={}
-expenses["Food"]=250
-expenses["Travel"]=150
-expenses["Shopping"]=400
-expenses["Books"]=200
+# expenses={}
+# expenses["Food"]=250
+# expenses["Travel"]=150
+# expenses["Shopping"]=400
+# expenses["Books"]=200
 
-total=0
+# total=0
 
-for amount in expenses:
-    total+=expenses[amount]
-print("Total expenses:", total)
+# for amount in expenses:
+#     total+=expenses[amount]
+# print("Total expenses:", total)
+
+marks={}
+marks["Rahul"]=85
+marks["Aman"]=42
+marks["Priya"]=91
+marks["Rohit"]=35
+marks["Sneha"]=67
+marks["Karan"]=28
+
+count=0
+
+for student in marks:
+    if marks[student]<50:
+        count+=1
+print("Number of students scoring less than 50:", count)
