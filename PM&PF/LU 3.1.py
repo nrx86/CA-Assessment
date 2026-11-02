@@ -229,17 +229,35 @@ from tokenize import Name
 #     total+=expenses[amount]
 # print("Total expenses:", total)
 
-marks={}
-marks["Rahul"]=85
-marks["Aman"]=42
-marks["Priya"]=91
-marks["Rohit"]=35
-marks["Sneha"]=67
-marks["Karan"]=28
+# marks={}
+# marks["Rahul"]=85
+# marks["Aman"]=42
+# marks["Priya"]=91
+# marks["Rohit"]=35
+# marks["Sneha"]=67
+# marks["Karan"]=28
 
-count=0
+# count=0
 
-for student in marks:
-    if marks[student]<50:
-        count+=1
-print("Number of students scoring less than 50:", count)
+# for student in marks:
+#     if marks[student]<50:
+#         count+=1
+# print("Number of students scoring less than 50:", count)
+
+scores= {}
+scores["Kohli"]=95
+scores["Rohit"]=72
+scores["Gill"]=88
+scores["Bumrah"]=45
+scores["SKY"]=81
+
+highest=0
+player=""
+
+for players in scores:
+    if scores[players]>highest:
+        highest=scores[players]
+        player=players
+
+print("Top player:", player)
+print("Highest score:", highest)
