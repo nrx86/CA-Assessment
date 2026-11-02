@@ -349,24 +349,26 @@ from turtle import st
 # print("Smallest frequency:", smallest)
 
 
-products = {
-    "Laptop": 55000,
-    "Mouse": 800,
-    "Keyboard": 1500,
-    "Monitor": 12000
-}
-print("Products and their prices:")
-for item in products:
-    print(item, ":", products[item])
-total=0
-highest=0
+# products = {
+#     "Laptop": 55000,
+#     "Mouse": 800,
+#     "Keyboard": 1500,
+#     "Monitor": 12000
+# }
+# print("Products and their prices:")
+# for item in products:
+#     print(item, ":", products[item])
+# total=0
+# highest=0
 
-for item in products:
-    total+=products[item]
-    if products[item] > highest:
-        highest = products[item]
-        product=item
+# for item in products:
+#     total+=products[item]
+#     if products[item] > highest:
+#         highest = products[item]
+#         product=item
 
-print("Total value of products:", total)
-print("Highest product value:", highest)
-print("Product with highest value:", product)
+# print("Total value of products:", total)
+# print("Highest product value:", highest)
+# print("Product with highest value:", product)
+
+
