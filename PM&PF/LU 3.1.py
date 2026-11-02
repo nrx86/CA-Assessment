@@ -116,6 +116,7 @@
 # print("Total sales:", total)
 # print("Items with sales greater than 1000:", count)
     
+from itertools import count
 from os import name
 from tokenize import Name
 
@@ -244,20 +245,27 @@ from tokenize import Name
 #         count+=1
 # print("Number of students scoring less than 50:", count)
 
-scores= {}
-scores["Kohli"]=95
-scores["Rohit"]=72
-scores["Gill"]=88
-scores["Bumrah"]=45
-scores["SKY"]=81
+# scores= {}
+# scores["Kohli"]=95
+# scores["Rohit"]=72
+# scores["Gill"]=88
+# scores["Bumrah"]=45
+# scores["SKY"]=81
 
-highest=0
-player=""
+# highest=0
+# player=""
 
-for players in scores:
-    if scores[players]>highest:
-        highest=scores[players]
-        player=players
+# for players in scores:
+#     if scores[players]>highest:
+#         highest=scores[players]
+#         player=players
 
-print("Top player:", player)
-print("Highest score:", highest)
+# print("Top player:", player)
+# print("Highest score:", highest)
+
+frequency={}
+numbers = [2, 3, 2, 5, 3, 2, 5, 1, 3, 2]
+
+for number in numbers:
+    frequency[number] = frequency.get(number,0)+1
+print("Frequency of numbers:", frequency)
