@@ -284,19 +284,24 @@ from tokenize import Name
 # average=total/len(marks)
 # print("Average marks:", average)
 
-temperatures={}
-temperatures["Delhi"]=32
-temperatures["Mumbai"]=29
-temperatures["Jaipur"]=35
-temperatures["Shimla"]=18
-temperatures["Chennai"]=31
+# temperatures={}
+# temperatures["Delhi"]=32
+# temperatures["Mumbai"]=29
+# temperatures["Jaipur"]=35
+# temperatures["Shimla"]=18
+# temperatures["Chennai"]=31
 
-lowest = float('inf')
-city=""
+# lowest = float('inf')
+# city=""
 
-for cities in temperatures:
-    if temperatures[cities]<lowest:
-        lowest=temperatures[cities]
-        city=cities
-print("City with lowest temperature:", city)
-print("Lowest temperature:", lowest)
+# for cities in temperatures:
+#     if temperatures[cities]<lowest:
+#         lowest=temperatures[cities]
+#         city=cities
+# print("City with lowest temperature:", city)
+# print("Lowest temperature:", lowest)
+
+data={"seven": 7, "eight": 8, "nine": 9}
+for number in data:
+    print(number)
+print("Loop completed")
