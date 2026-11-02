@@ -38,12 +38,25 @@
 #         print("Name cannot be empty.")
 
 #WAP to check password with limited attempts
-for attempts in range(3):
-    password=input("Enter the password:")
-    if password=="1234":
-        print("Access granted.")
-        break
+# for attempts in range(3):
+#     password=input("Enter the password:")
+#     if password=="1234":
+#         print("Access granted.")
+#         break
+#     else:
+#         print("Incorrect PIN.")
+# else:
+#     print("Account locked.")
+
+#Write a Python program that repeatedly asks the user to enter their age until they enter a valid age between 18 and 60 (inclusive).    
+while True:
+    age=input("Enter your age:")
+    if age.isdigit():
+        age=int(age)
+        if 18 <= age <= 60:
+            print("Registration successful.")
+            break
+        else:
+            print("Age must be between 18 and 60.")
     else:
-        print("Incorrect PIN.")
-else:
-    print("Account locked.")
+        print("Enter numbers only.")
