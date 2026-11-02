@@ -191,10 +191,19 @@ from tokenize import Name
 # for product in prices:
 #     print(product, prices[product])
 
-scores={}
-scores["Rahul"]=85
-scores["Aman"]=90
-scores["Priya"]=78
+# scores={}
+# scores["Rahul"]=85
+# scores["Aman"]=90
+# scores["Priya"]=78
 
-for student in scores.keys():
-    print(student)
+# for student in scores.keys():
+#     print(student)
+
+inventory={}
+inventory["Pen"]=20
+inventory["Notebook"]=35
+inventory["Pencil"]=15
+inventory["Eraser"]=10
+
+for item in inventory.values():
+    print(item)
