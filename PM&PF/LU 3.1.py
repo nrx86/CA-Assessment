@@ -319,6 +319,30 @@ from turtle import st
 # students["Sneha"]=88
 # print("Updated student marks:", students)
 
-marks = {"Maths": 85, "Physics": 78, "Chemistry": 92}
-print(marks.get("Physics", 0))
-print(marks.get("Biology", 0))
+# marks = {"Maths": 85, "Physics": 78, "Chemistry": 92}
+# print(marks.get("Physics", 0))
+# print(marks.get("Biology", 0))
+
+counts={}
+word="banana"
+for letter in word:
+    counts = {}
+word = "banana"
+
+for letter in word:
+    if letter in counts:
+        counts[letter] += 1
+    else:
+        counts[letter] = 1
+
+smallest = float('inf')
+smallest_letter = ""
+
+for letter in counts:
+    if counts[letter] < smallest:
+        smallest = counts[letter]
+        smallest_letter = letter
+
+print("Frequency of letters:", counts)
+print("Letter with smallest frequency:", smallest_letter)
+print("Smallest frequency:", smallest)
