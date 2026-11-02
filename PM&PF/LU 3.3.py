@@ -77,10 +77,30 @@
 #     print("Registration failed.")
 
 #Password Validation
-while True:
-    password=input("Enter the password:")
-    if len(password) >= 8:
-        print("Password accepted.")
-        break
+# while True:
+#     password=input("Enter the password:")
+#     if len(password) >= 8:
+#         print("Password accepted.")
+#         break
+#     else:
+#         print("Password must be at least 8 characters long.")
+
+granted=False
+
+for attempts in range(3):
+    age=input("Enter your age:")
+
+    if age.isdigit():
+        age=int(age)
+
+        if 18 <= age <=120:
+            print("Access granted.")
+            granted=True
+            break
+        else:
+            print("Age out of range.")
+
     else:
-        print("Password must be at least 8 characters long.")
+        print("Enter numbers only.")
+if not granted:
+    print("Account locked.")
