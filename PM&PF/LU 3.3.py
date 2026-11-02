@@ -29,10 +29,21 @@
 #         print("Please type yes or no.")
 
 #Write a Python program that repeatedly asks the user to enter their name.
-while True:
-    name=input("Enter your name:")
-    if name.isalnum():
-        print("Hello", name)
+# while True:
+#     name=input("Enter your name:")
+#     if name.isalnum():
+#         print("Hello", name)
+#         break
+#     else:
+#         print("Name cannot be empty.")
+
+#WAP to check password with limited attempts
+for attempts in range(3):
+    password=input("Enter the password:")
+    if password=="1234":
+        print("Access granted.")
         break
     else:
-        print("Name cannot be empty.")
+        print("Incorrect PIN.")
+else:
+    print("Account locked.")
