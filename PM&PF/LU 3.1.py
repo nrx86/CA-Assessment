@@ -173,11 +173,20 @@ from tokenize import Name
 # print(student)
 # print(student["Name"])
 
-marks={}
-marks["Maths"]=90
-marks["Physics"]=78
-marks["Chemistry"]=85
-marks["English"]=92
+# marks={}
+# marks["Maths"]=90
+# marks["Physics"]=78
+# marks["Chemistry"]=85
+# marks["English"]=92
 
-for subject in marks:
-    print(subject)
+# for subject in marks:
+#     print(subject)
+
+prices={}
+prices["Laptop"]=55000
+prices["Mouse"]=800
+prices["Keyboard"]=1500
+prices["Monitor"]=12000
+
+for product in prices:
+    print(product, prices[product])
