@@ -117,6 +117,7 @@
 # print("Items with sales greater than 1000:", count)
     
 from os import name
+from tokenize import Name
 
 
 # scores={}
@@ -150,20 +151,24 @@ from os import name
 
 # print("Student marks:", marks)
 
-marks={}
-n=int(input("How many students?"))
-count=0
-for i in range(n):
-    student_name=input("Enter student name: ")
-    student_marks=int(input("Enter marks: "))
-    marks[student_name]=student_marks
+# marks={}
+# n=int(input("How many students?"))
+# count=0
+# for i in range(n):
+#     student_name=input("Enter student name: ")
+#     student_marks=int(input("Enter marks: "))
+#     marks[student_name]=student_marks
 
-print("Students scoring 80 or more:")
-for student in marks:
-    if marks[student]>=80:
-        print(student)
-        count+=1
-print("Total students:", count)
+# print("Students scoring 80 or more:")
+# for student in marks:
+#     if marks[student]>=80:
+#         print(student)
+#         count+=1
+# print("Total students:", count)
 
-
-
+student={}
+student["Name"]= "Rahul"
+student["Age"]=18
+student["Marks"]=85
+print(student)
+print(student["Name"])
