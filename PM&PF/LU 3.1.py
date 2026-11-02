@@ -166,9 +166,18 @@ from tokenize import Name
 #         count+=1
 # print("Total students:", count)
 
-student={}
-student["Name"]= "Rahul"
-student["Age"]=18
-student["Marks"]=85
-print(student)
-print(student["Name"])
+# student={}
+# student["Name"]= "Rahul"
+# student["Age"]=18
+# student["Marks"]=85
+# print(student)
+# print(student["Name"])
+
+marks={}
+marks["Maths"]=90
+marks["Physics"]=78
+marks["Chemistry"]=85
+marks["English"]=92
+
+for subject in marks:
+    print(subject)
