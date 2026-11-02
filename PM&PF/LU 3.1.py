@@ -208,11 +208,23 @@ from tokenize import Name
 # for item in inventory.values():
 #     print(item)
 
-players={}
-players["Virat"]=85
-players["Rohit"]=62
-players["Dhoni"]=45
-players["SKY"]=70
+# players={}
+# players["Virat"]=85
+# players["Rohit"]=62
+# players["Dhoni"]=45
+# players["SKY"]=70
 
-for player,score in players.items():
-    print(player, score)
+# for player,score in players.items():
+#     print(player, score)
+
+expenses={}
+expenses["Food"]=250
+expenses["Travel"]=150
+expenses["Shopping"]=400
+expenses["Books"]=200
+
+total=0
+
+for amount in expenses:
+    total+=expenses[amount]
+print("Total expenses:", total)
