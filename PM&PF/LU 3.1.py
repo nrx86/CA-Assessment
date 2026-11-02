@@ -182,11 +182,19 @@ from tokenize import Name
 # for subject in marks:
 #     print(subject)
 
-prices={}
-prices["Laptop"]=55000
-prices["Mouse"]=800
-prices["Keyboard"]=1500
-prices["Monitor"]=12000
+# prices={}
+# prices["Laptop"]=55000
+# prices["Mouse"]=800
+# prices["Keyboard"]=1500
+# prices["Monitor"]=12000
 
-for product in prices:
-    print(product, prices[product])
+# for product in prices:
+#     print(product, prices[product])
+
+scores={}
+scores["Rahul"]=85
+scores["Aman"]=90
+scores["Priya"]=78
+
+for student in scores.keys():
+    print(student)
