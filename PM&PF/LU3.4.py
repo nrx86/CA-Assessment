@@ -20,10 +20,30 @@
         
 # print("Number of vowels:", count)
 
-nums = [12, 5, 8, 20, 3, 17]
-filtered=[]
+# nums = [12, 5, 8, 20, 3, 17]
+# filtered=[]
+# for num in nums:
+#     if num >= 5 and num <=15:
+#         filtered.append(num)
+# print("Filtered numbers:", filtered)
+# print("Total numbers:", len(filtered))
+
+# text = "Rs 1,299 only"
+# result=""
+# for ch in text:
+#     if ch.isdigit():
+#         result+=ch
+# print(result)
+
+nums = [3, 11, 7, 2, 15, 6]
+short_count=0
+long_count=0
 for num in nums:
-    if num >= 5 and num <=15:
-        filtered.append(num)
-print("Filtered numbers:", filtered)
-print("Total numbers:", len(filtered))
+    if num<8:
+        short_count+=1
+
+    elif num>=8:
+        long_count+=1
+
+print("Short numbers:", short_count)
+print("Long numbers:", long_count)
