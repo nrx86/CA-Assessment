@@ -35,15 +35,34 @@
 #         result+=ch
 # print(result)
 
-nums = [3, 11, 7, 2, 15, 6]
-short_count=0
-long_count=0
+# nums = [3, 11, 7, 2, 15, 6]
+# short_count=0
+# long_count=0
+# for num in nums:
+#     if num<8:
+#         short_count+=1
+
+#     elif num>=8:
+#         long_count+=1
+
+# print("Short numbers:", short_count)
+# print("Long numbers:", long_count)
+
+# nums = [10, 25, 30, 45, 50]
+# result=[]
+# for num in nums:
+#     if num>=30:
+#         num=num*1.1
+#         result.append(num)
+# print(result)
+
+nums = [7, 4, 9, 4, 2, 7, 4]
+result=[]
 for num in nums:
-    if num<8:
-        short_count+=1
+    if num>nums[0]:
+        result.append(num)
+print(result)
 
-    elif num>=8:
-        long_count+=1
 
-print("Short numbers:", short_count)
-print("Long numbers:", long_count)
+
+
