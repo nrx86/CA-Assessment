@@ -32,32 +32,36 @@
 // const title = document.getElementById("title");
 // title.classList.add("highlight"); 
 
-const academyTitle = document.getElementById("academyTitle");
-academyTitle.textContent="NR86 Cricket Academy";
+// const academyTitle = document.getElementById("academyTitle");
+// academyTitle.textContent="NR86 Cricket Academy";
 
-academyTitle.setAttribute("data-sport", "cricket")
+// academyTitle.setAttribute("data-sport", "cricket")
 
-const playerList=document.getElementById("playerList")
-playerList.classList.add("squad");
+// const playerList=document.getElementById("playerList")
+// playerList.classList.add("squad");
 
-const joinBtn=document.getElementById("joinBtn")
-joinBtn.textContent="Register Now";
+// const joinBtn=document.getElementById("joinBtn")
+// joinBtn.textContent="Register Now";
 
-joinBtn.classList.add("primary");
+// joinBtn.classList.add("primary");
 
-joinBtn.style.backgroundColor="blue";
+// joinBtn.style.backgroundColor="blue";
 
-const firstPlayer = document.querySelector(".player");
-firstPlayer.textContent="Virat Kohli - Captain";
+// const firstPlayer = document.querySelector(".player");
+// firstPlayer.textContent="Virat Kohli - Captain";
 
-const matchStatus=document.getElementById("matchStatus");
-matchStatus.textContent="Match Day Ready";
+// const matchStatus=document.getElementById("matchStatus");
+// matchStatus.textContent="Match Day Ready";
 
-matchStatus.style.color="green";
+// matchStatus.style.color="green";
 
-const allPlayers = document.querySelectorAll(".player");
-allPlayers.forEach(item => {
-  item.classList.add("selected")
-});
+// const allPlayers = document.querySelectorAll(".player");
+// allPlayers.forEach(item => {
+//   item.classList.add("selected")
+// });
+
+
+
+
 
 
